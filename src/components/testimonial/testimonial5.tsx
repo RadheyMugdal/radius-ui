@@ -68,14 +68,14 @@ const testimonials = [
 
 export default function Testimonial5() {
     return (
-        <section className="w-full bg-slate-50/50 py-24 px-6 flex flex-col items-center">
+        <section className="w-full bg-background text-foreground py-24 px-6 flex flex-col items-center">
 
             {/* Header Section */}
             <div className="flex flex-col items-center text-center mb-16 space-y-4">
                 <Badge variant="outline" className="text-primary border-primary/20 px-3 py-1 text-xs uppercase tracking-wider bg-background">
                     Testimonials
                 </Badge>
-                <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900">
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight ">
                     Our trusted clients
                 </h2>
             </div>
@@ -85,18 +85,18 @@ export default function Testimonial5() {
                 {testimonials.map((item, index) => (
                     <div
                         key={index}
-                        className="bg-white rounded-[1.5rem] p-8 shadow-sm border border-slate-100 flex flex-col justify-between h-full hover:shadow-md transition-shadow duration-200"
+                        className=" bg-card text-card-foreground rounded-[1.5rem] p-8 shadow-sm border flex flex-col justify-between h-full hover:shadow-md transition-shadow duration-200"
                     >
                         {/* Top Content */}
                         <div>
                             <Quote className="h-8 w-8 text-primary/20 mb-6 fill-primary/10" />
-                            <p className="text-slate-600 leading-relaxed text-[15px] mb-8">
+                            <p className=" text-card-foreground/60 leading-relaxed text-[15px] mb-8">
                                 {item.text}
                             </p>
                         </div>
 
                         {/* Separator Line */}
-                        <div className="w-full h-px bg-slate-100 mb-6" />
+                        <div className="w-full h-px bg-border/40 mb-6" />
 
                         {/* User Profile */}
                         <div className="flex items-center gap-4">
@@ -107,10 +107,10 @@ export default function Testimonial5() {
                                 </AvatarFallback>
                             </Avatar>
                             <div className="flex flex-col">
-                                <span className="text-sm font-bold text-slate-900 leading-none mb-1">
+                                <span className="text-sm font-bold  leading-none mb-1">
                                     {item.name}
                                 </span>
-                                <span className="text-xs text-slate-400 font-medium">
+                                <span className="text-xs  text-card-foreground/60 font-medium">
                                     {item.handle}
                                 </span>
                             </div>

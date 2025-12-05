@@ -70,7 +70,7 @@ const Hero3 = () => {
                 </div>
             </header>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 py-12  flex-1  px-8 md:px-12 md:py-12 lg:px-24 items-center    ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-28x py-12  flex-1  px-8 md:px-12 md:py-12 lg:px-24 items-center    ">
                 <div className="flex flex-col h-full justify-center  gap-6 md:gap-8">
                     {/* Badge */}
                     <div className="inline-flex flex-col md:flex-row w-full md:w-fit items-center gap-2 bg-primary/10 text-primary px-4 py-1.5 rounded-none text-sm border border-primary/20 transition-colors hover:bg-primary/20 cursor-pointer">

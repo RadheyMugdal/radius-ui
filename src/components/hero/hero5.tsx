@@ -9,18 +9,18 @@ const Hero5 = () => {
                 <div>
                     <h1 className=' text-xl font-bold'>Logo</h1>
                 </div>
-                <nav className=' hidden lg:block'>
-                    <ul className=' flex gap-4'>
-                        <li className=' opacity-75  hover:opacity-100'>
+                <nav className='hidden lg:block'>
+                    <ul className=' flex justify-center gap-4'>
+                        <li className='opacity-75  hover:opacity-100'>
                             <a href="#">Products</a>
                         </li>
-                        <li className=' opacity-75 hover:opacity-100 '>
+                        <li className='opacity-75 hover:opacity-100 '>
                             <a href="#">Solutions</a>
                         </li>
-                        <li className=' opacity-75  hover:opacity-100'>
+                        <li className='opacity-75  hover:opacity-100'>
                             <a href="#">Resources</a>
                         </li>
-                        <li className=' opacity-75  hover:opacity-100'>
+                        <li className='opacity-75  hover:opacity-100'>
                             <a href="#">Company</a>
                         </li>
                     </ul>

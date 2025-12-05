@@ -129,7 +129,7 @@ export default function Testimonial1() {
                 {testimonials.map((item, index) => (
                     <div
                         key={index}
-                        className="break-inside-avoid bg-slate-50/50 dark:bg-slate-900/50 border border-slate-100 dark:border-slate-800 p-6 rounded-xl hover:shadow-sm transition-shadow duration-200"
+                        className="break-inside-avoid  bg-card text-card-foreground border  p-6 rounded-xl hover:shadow-sm transition-shadow duration-200"
                     >
                         {/* User Header */}
                         <div className="flex items-center gap-4 mb-4">

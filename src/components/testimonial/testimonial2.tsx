@@ -48,10 +48,10 @@ const reviews = [
 const ReviewCard = ({ review }: { review: typeof reviews[0] }) => {
     return (
         // Removed 'mx-4' so the gap is controlled strictly by the parent container
-        <div className="relative w-[350px] shrink-0 rounded-2xl bg-slate-50 p-6 shadow-sm border border-slate-100">
+        <div className="relative w-[350px] shrink-0 rounded-2xl bg-card  text-card-foreground p-6 shadow-sm border ">
             <Quote className="h-8 w-8 text-indigo-500 mb-4 fill-indigo-500/20" />
 
-            <p className="text-base text-slate-800 font-medium leading-relaxed mb-6">
+            <p className="text-base  font-medium leading-relaxed mb-6">
                 {review.content}
             </p>
 
@@ -61,8 +61,8 @@ const ReviewCard = ({ review }: { review: typeof reviews[0] }) => {
                     <AvatarFallback>{review.name[0]}</AvatarFallback>
                 </Avatar>
                 <div className="flex flex-col">
-                    <span className="text-sm font-bold text-slate-900">{review.name}</span>
-                    <span className="text-xs text-slate-500">{review.role}</span>
+                    <span className="text-sm font-bold ">{review.name}</span>
+                    <span className="text-xs  text-card-foreground/60">{review.role}</span>
                 </div>
             </div>
         </div>
