@@ -50,6 +50,20 @@ const componentCategories = [
     href: "/faq",
     gradient: "from-amber-600 to-amber-700",
     count: 5,
+  },
+  {
+    name: "LogoCloud",
+    description: "LogoCloud that clarifies user doubts",
+    href: "/logo-cloud",
+    gradient: "from-violet-700 to-violet-600",
+    count: 5,
+  },
+  {
+    name: "Team-section",
+    description: "LogoCloud that clarifies user doubts",
+    href: "/team",
+    gradient: "from-blue-700 to-blue-600",
+    count: 5,
   }
 ];
 

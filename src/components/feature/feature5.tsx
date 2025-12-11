@@ -219,7 +219,7 @@ export default function Feature5() {
     ];
 
     return (
-        <section className="bg-background text-foreground max-w-screen-2xl mx-auto py-24 px-6 lg:px-8 overflow-hidden font-sans ">
+        <section className="bg-background text-foreground max-w-screen-2xl mx-auto py-24 px-6 lg:px-8 overflow-hidden  ">
             <div className="max-w-7xl mx-auto space-y-32">
 
                 {features.map((feature, index) => (

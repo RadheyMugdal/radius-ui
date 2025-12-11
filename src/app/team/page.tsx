@@ -7,8 +7,13 @@ import Pricing4 from "@/components/pricing/pricing4";
 import Pricing5 from "@/components/pricing/pricing5";
 import Pricing6 from "@/components/pricing/pricing6";
 import Pricing7 from "@/components/pricing/pricing7";
+import Team1 from "@/components/team/team1";
+import Team2 from "@/components/team/team2";
+import Team3 from "@/components/team/team3";
+import Team4 from "@/components/team/team4";
+import Team5 from "@/components/team/team5";
 
-export default function PricingPage() {
+export default function TeamPage() {
     return (
         <div className="min-h-screen bg-background">
             {/* Header */}
@@ -27,22 +32,20 @@ export default function PricingPage() {
             {/* Page Title */}
             <section className="border-b bg-gradient-to-br from-blue-50 to-cyan-50">
                 <div className="container mx-auto px-4 py-12">
-                    <h1 className="text-4xl md:text-5xl font-bold mb-4">Pricing Components</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold mb-4">Team Components</h1>
                     <p className="text-lg text-muted-foreground max-w-2xl">
-                        Beautiful pricing tables and cards for your products. Choose from 5 different designs.
+                        Beautiful team sections for your products. Choose from 5 different designs.
                     </p>
                 </div>
             </section>
 
             {/* Components */}
             <div className="w-full">
-                <Pricing1 />
-                <Pricing2 />
-                <WorkablePricing />
-                <Pricing4 />
-                <Pricing5 />
-                <Pricing6 />
-                <Pricing7 />
+                <Team1 />
+                <Team2 />
+                <Team3 />
+                <Team4 />
+                <Team5 />
             </div>
         </div>
     );

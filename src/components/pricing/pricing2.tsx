@@ -9,7 +9,7 @@ import { Button } from '../ui/button';
 const Pricing2 = () => {
     const [isAnnual, setIsAnnual] = useState(true);
     return (
-        <div className="min-h-screen bg-background text-foreground max-w-screen-2xl mx-auto font-sans py-16 px-4 md:px-8 flex justify-center">
+        <div className="min-h-screen bg-background text-foreground max-w-screen-2xl mx-auto  py-16 px-4 md:px-8 flex justify-center">
 
             <div className="w-full max-w-6xl space-y-12">
 

@@ -5,6 +5,8 @@ import Feature2 from "@/components/feature/feature2";
 import Feature3 from "@/components/feature/feature3";
 import Feature4 from "@/components/feature/feature4";
 import Feature5 from "@/components/feature/feature5";
+import Feature6 from "@/components/feature/feature6";
+import Feature7 from "@/components/feature/feature7";
 
 export default function FeaturePage() {
     return (
@@ -39,6 +41,8 @@ export default function FeaturePage() {
                 <Feature3 />
                 <Feature4 />
                 <Feature5 />
+                <Feature6 />
+                <Feature7 />
             </div>
         </div>
     );

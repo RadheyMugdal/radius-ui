@@ -9,6 +9,9 @@ import FAQ1 from "@/components/faq/faq1";
 import FAQ2 from "@/components/faq/faq2";
 import FAQ3 from "@/components/faq/faq3";
 import FAQ4 from "@/components/faq/faq4";
+import FAQ5 from "@/components/faq/faq5";
+import FAQ6 from "@/components/faq/faq6";
+import FAQ7 from "@/components/faq/faq7";
 
 export default function FAQPage() {
     return (
@@ -42,6 +45,9 @@ export default function FAQPage() {
                 <FAQ2 />
                 <FAQ3 />
                 <FAQ4 />
+                <FAQ5 />
+                <FAQ6 />
+                <FAQ7 />
             </div>
         </div>
     );

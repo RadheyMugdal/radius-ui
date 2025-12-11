@@ -155,7 +155,7 @@ const MetricsCard = () => (
 
 export default function Feature3() {
     return (
-        <div className="bg-amber-50 min-h-screen max-w-screen-2xl mx-auto font-sans ">
+        <div className="bg-amber-50 min-h-screen max-w-screen-2xl mx-auto  ">
             <div className="max-w-7xl mx-auto px-6 py-20 lg:py-28">
 
                 {/* Header Section */}

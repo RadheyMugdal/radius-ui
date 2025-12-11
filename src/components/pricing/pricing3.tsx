@@ -60,7 +60,7 @@ export default function WorkablePricing() {
     );
 
     return (
-        <div className="min-h-screen max-w-screen-2xl mx-auto bg-background text-foreground font-sans relative overflow-hidden pb-20">
+        <div className="min-h-screen max-w-screen-2xl mx-auto bg-background text-foreground  relative overflow-hidden pb-20">
 
             {/* Decorative Background Elements */}
             <div className="absolute top-40 left-0 w-32 h-32 bg-orange-400/20 rounded-full blur-3xl"></div>

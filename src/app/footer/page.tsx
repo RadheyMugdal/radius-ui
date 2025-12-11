@@ -5,6 +5,8 @@ import Footer2 from "@/components/footer/footer2";
 import Footer3 from "@/components/footer/footer3";
 import Footer4 from "@/components/footer/footer4";
 import Footer5 from "@/components/footer/footer5";
+import Footer6 from "@/components/footer/footer6";
+import Footer7 from "@/components/footer/footer7";
 
 export default function FooterPage() {
     return (
@@ -39,6 +41,8 @@ export default function FooterPage() {
                 <Footer3 />
                 <Footer4 />
                 <Footer5 />
+                <Footer6 />
+                <Footer7 />
             </div>
         </div>
     );

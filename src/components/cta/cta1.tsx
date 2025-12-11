@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function CTA1() {
     return (
-        <section className="relative w-full max-w-screen-2xl mx-auto bg-primary/80 pt-24 pb-32 md:pt-32 md:pb-48 overflow-hidden font-sans">
+        <section className="relative w-full max-w-screen-2xl mx-auto bg-primary/80 pt-24 pb-32 md:pt-32 md:pb-48 overflow-hidden ">
 
             {/* --- Background "Ghost" Elements --- */}
             {/* These mimic the faint outlines seen behind the text in the screenshot */}

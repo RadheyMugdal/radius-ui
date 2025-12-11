@@ -76,7 +76,7 @@ const plans = [
 
 const Pricing1 = () => {
     return (
-        <div className="min-h-screen bg-background text-foreground max-w-screen-2xl mx-auto font-sans p-4 md:p-8">
+        <div className="min-h-screen bg-background text-foreground max-w-screen-2xl mx-auto  p-4 md:p-8">
 
             {/* Header Section */}
             <div className="  text-center mb-12 space-y-4">

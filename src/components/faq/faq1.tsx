@@ -53,7 +53,7 @@ const faqs = [
 
 const FAQ1 = () => {
     return (
-        <section className="bg-background text-foreground max-w-screen-2xl mx-auto py-16 px-4 md:px-8 font-sans">
+        <section className="bg-background text-foreground max-w-screen-2xl mx-auto py-16 px-4 md:px-8 ">
             <div className="max-w-6xl mx-auto">
                 {/* Header Section */}
                 <div className="text-center mb-16 space-y-4">
